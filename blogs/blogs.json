@@ -1,0 +1,21 @@
+{
+  "repo": "thelearningexperience",
+  "feeds": [
+    {
+      "source": "https://thelearningexperience.com/feed/",
+      "feed_url": "https://thelearningexperience.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://thelearningexperience.com",
+      "feed_url": "https://thelearningexperience.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}

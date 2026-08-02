@@ -1,8 +1,25 @@
 aid: thelearningexperience
-name: Thelearningexperience
-description: 'Thelearningexperience is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thelearningexperience.png
+name: The Learning Experience
+description: 'The Learning Experience is an early childhood education and childcare
+  franchise operating academies of early education for children from six weeks to
+  six years old across a nationwide network of centers. Its programs span infant,
+  toddler, preschool, and pre-kindergarten care built on a proprietary curriculum.
+  The company was surfaced as a portfolio company of Norwest Venture Partners and
+  added to the API Evangelist network. As a consumer-facing childcare operator it
+  publishes no public developer or API surface; this profile captures its identity,
+  public web properties, and probed domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/thelearningexperience/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Early Education
+- Childcare
+- Preschool
+- Daycare
+- Franchise
+- Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://thelearningexperience.com
+- type: Blog
+  url: https://thelearningexperience.com/blog-and-news/
+- type: Support
+  url: https://thelearningexperience.com/contact-us/
+- type: SignUp
+  url: https://thelearningexperience.com/search-centers/
+- type: TermsOfService
+  url: https://thelearningexperience.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://thelearningexperience.com/privacy-policy/
+- type: DomainSecurity
+  url: security/thelearningexperience-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
